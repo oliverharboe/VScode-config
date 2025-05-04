@@ -5,6 +5,7 @@
     "git.autofetch": true,
     "editor.lineNumbers": "relative",
     "tabnine.experimentalAutoImports": true,
+    "vim.useSystemClipboard": true,
     "codeium.enableConfig": {
         "*": true,
         "cpp": false
