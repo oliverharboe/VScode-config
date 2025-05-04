@@ -1,4 +1,5 @@
 
+
 [
   // Navigation
   {
@@ -195,8 +196,14 @@
   },
   {
     "key": "enter",
-    "command": "explorer.openAndPassFocus",
-    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceIsFolder && !inputFocus"
+    "command": "runCommands",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceIsFolder && !inputFocus",
+    "args": {
+      "commands": [
+        "explorer.openAndPassFocus",
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    }
   },
   {
     "key": "enter",
