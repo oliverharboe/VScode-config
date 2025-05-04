@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.enableMultiLinePasteWarning": "auto" ,
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.lineNumbers": "relative",
+    "tabnine.experimentalAutoImports": true,
+    "codeium.enableConfig": {
+        "*": true,
+        "cpp": false
+    },
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.activityBar.location": "bottom",
+    "workbench.editor.showTabs": "none"
+}
